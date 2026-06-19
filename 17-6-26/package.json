@@ -1,5 +1,5 @@
 {
   "dependencies": {
-    "nodemon": "^3.1.14"
+    "express": "^5.2.1"
   }
 }
