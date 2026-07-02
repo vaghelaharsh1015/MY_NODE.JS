@@ -1,0 +1,26 @@
+<%- include("partials/header.ejs") %>
+
+  <%- include("partials/navbar.ejs") %>
+
+    <h2>add student</h2>
+
+    <form action="/student/add" method="post">
+      <div>
+        <label for="">name</label>
+        <input type="text" name="name" class="from-control">
+      </div>
+
+      <div>
+        <label for="">email</label>
+        <input type="email" name="email" class="from-control">
+      </div>
+
+      <div>
+        <label for="">age</label>
+        <input type="number" name="age" class="from-control">
+      </div>
+
+      <button class="btn btn-success">Add Student</button>
+    </form>
+
+    <%- include("partials/footer.ejs") %>
