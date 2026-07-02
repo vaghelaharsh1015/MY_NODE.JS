@@ -1,13 +1,11 @@
 {
-  "type":"module" ,
+  "type": "module",
   "scripts": {
     "start": "nodemon server.js"
   },
   "dependencies": {
     "dotenv": "^17.4.2",
-    "ejs": "^6.0.1",
     "express": "^5.2.1",
-    "mongodb": "^7.4.0",
     "mongoose": "^9.7.3",
     "nodemon": "^3.1.14"
   }
